@@ -1,0 +1,200 @@
+@media screen and (max-width: 425px){
+  a.Boton{
+  	padding: 3%;
+    font-size: 20px;
+  }
+  div.Header{
+    height: 450px;
+  }
+  h2{
+    font-size: 50px;
+  }
+  div.Middle{
+    width: 100%; margin: 0 auto;
+    padding: 5%;
+  }
+  div.Text1, div.Text2{
+    padding: 2%;
+    flex-direction: column;
+  }
+  div.MiddleParrafo{
+    padding: 0;
+    text-align: center;
+  }
+  h3{
+    font-size: 25px;
+  }
+  p.pMiddle, p.pInfo, a.Boton{
+    font-size: 14px;
+  }
+  div.MiddleImagen{
+    padding: 0;
+  }
+  img.ImgMiddle{
+    height: 150px; margin: 0 auto;
+  }
+  div.Info{
+    height: 370px;
+  }
+  div.InfoText{
+    padding: 4%;
+    width: 80%; margin: 0 auto;
+    text-align: center;
+  }
+  div.Listas{
+    width: 70%; margin: 0 auto;
+    font-size: 14px;
+  }
+  div.Sublista{
+    width: 100px; height: 200px;
+  }
+  div.Base{
+    padding: 1%;
+    font-size: 14px;
+    width: 80%; margin: auto;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+  div.Header{
+    height: 700px;
+  }
+  h2{
+    font-size: 85px;
+  }
+  div.Middle{
+    width: 100%; margin: 0 auto;
+    padding: 5%;
+  }
+  div.Text1, div.Text2{
+    padding: 2%;
+    flex-direction: column;
+  }
+  div.MiddleParrafo{
+    padding: 0;
+    text-align: center;
+  }
+  h3{
+    font-size: 45px;
+  }
+  p.pMiddle, p.pInfo, a.Boton{
+    font-size: 18px;
+  }
+  div.MiddleImagen{
+    padding: 0;
+  }
+  img.ImgMiddle{
+    height: 240px; margin: 0 auto;
+  }
+  div.Info{
+    height: 500px;
+  }
+  div.InfoText{
+    padding: 4%;
+    width: 90%; margin: 0 auto;
+    text-align: center;
+  }
+  div.Listas{
+    width: 80%; margin: 0 auto;
+    font-size: 14px;
+  }
+  div.Sublista{
+    width: 150px; height: 200px;
+  }
+  div.Base{
+    padding: 2%;
+    font-size: 14px;
+    width: 80%; margin: auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  div.Header{
+    height: 1200px;
+  }
+  h2{
+    font-size: 150px;
+  }
+  div.Middle{
+    width: 100%; margin: 0 auto;
+    padding: 5%;
+  }
+  div.Text1, div.Text2{
+    padding: 2%;
+    flex-direction: column;
+  }
+  div.MiddleParrafo{
+    padding: 0;
+    text-align: center;
+  }
+  h3{
+    font-size: 50px;
+  }
+  p.pMiddle, p.pInfo, a.Boton{
+    font-size: 22px;
+  }
+  div.MiddleImagen{
+    padding: 0;
+  }
+  img.ImgMiddle{
+    height: 340px; margin: 0 auto;
+  }
+  div.Info{
+    height: 650px;
+  }
+  div.InfoText{
+    padding: 4%;
+    width: 90%; margin: 0 auto;
+    text-align: center;
+  }
+  div.Listas{
+    width: 80%; margin: 0 auto;
+    font-size: 14px;
+  }
+  div.Sublista{
+    width: 150px; height: 200px;
+  }
+  div.Base{
+    padding: 2%;
+    font-size: 14px;
+    width: 80%; margin: auto;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1715px){
+  div.Info{
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  div.Text1, div.Text2{
+    padding: 2%;
+    flex-direction: column;
+  }
+  div.MiddleParrafo{
+    padding: 0;
+    text-align: center;
+  }
+  h3.WhiteH3{
+    font-size: 55px;
+  }
+  p.pMiddle, p.pInfo, a.Boton{
+    font-size: 22px;
+  }
+  div.Info{
+    height: 650px;
+  }
+  div.InfoText{
+    padding: 4%;
+    width: 90%; margin: 0 auto;
+    text-align: center;
+  }
+  div.Listas{
+    width: 70%; margin: 0 auto;
+  }
+  div.Sublista{
+    width: 150px; height: 200px;
+  }
+  div.Base{
+    padding: 2%;
+    font-size: 14px;
+    width: 80%; margin: auto;
+  }
+}

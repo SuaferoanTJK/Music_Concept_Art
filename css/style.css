@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a.Boton{
+	border-radius: 30px;
+	background-color: #fd4c5c;
+	padding: 1%;
+  font-size: 30px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+div.Header{
+  background-image: url(../img/Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 1080px;
+}
+h1{
+  display: none;
+}
+h2{
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  position: absolute;
+  top: 50%;  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 220px;
+  width: 100%;
+}
+h2 span{
+  color: rgba(255, 255, 255, 1);
+}
+a:hover{
+  opacity: 0.8;
+}
+
+
+div.Middle{
+  width: 70%; margin: 0 auto;
+  padding: 5%;
+}
+div.Text1{
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.Text2{
+  display: flex;
+  flex-direction: row;
+}
+div.MiddleParrafo{
+  padding: 1%;
+}
+h3{
+  font-size: 60px;
+}
+h3.PinkH3{
+  color: #fd4c5c;
+}
+p.pMiddle, p.pInfo{
+  font-size: 25px;
+}
+div.MiddleImagen{
+  padding: 1%;
+  display: flex;
+  align-items: center;
+}
+img.ImgMiddle{
+  height: 300px; margin: 0 auto;
+}
+
+
+div.Info{
+  background-image: url(../img/Info.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: white;
+}
+div.InfoText{
+  padding: 4%;
+  width: 50%;
+}
+
+
+div.Footer{
+  background-color: #fd4c5c;
+  color: white;
+}
+div.Listas{
+  width: 50%; margin: auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div.Sublista{
+  width: 200px; height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h4.LTitle, a.FLinks{
+  padding: 4%;
+}
+a.FLinks{
+  color: white;
+  text-decoration: none;
+}
+div.Base{
+  padding: 1%;
+  font-size: 14px;
+  width: 70%; margin: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
